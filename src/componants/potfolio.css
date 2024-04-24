@@ -1,0 +1,55 @@
+.port {
+  margin-bottom: 25rem;
+}
+.port .container {
+  width: 80%;
+  margin: 0 auto;
+}
+.port .container h2 {
+  font-size: 5rem;
+  font-family: "Times New Roman", Times, serif;
+  text-shadow: rgb(169, 167, 167) 0px 3px 5px;
+  margin-bottom: 5rem;
+}
+.port h3 {
+  text-align: center;
+
+  /* padding-bottom: 2rem; */
+  font-weight: 500;
+  color: #eee;
+  font-size: 2.5rem;
+  line-height: 3rem;
+}
+.test {
+  margin-bottom: 5rem;
+  height: 50rem;
+}
+.port h3.bord {
+  border-bottom: 0.2rem #eee solid;
+  line-height: 6rem;
+}
+.card-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div.light {
+  background-color: rgb(126, 126, 126);
+  height: 20rem;
+  width: 28%;
+  padding: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgb(169, 167, 167) 6px 10px 7px;
+}
+div.dark {
+  background-color: rgb(75, 74, 74);
+  width: 28%;
+  height: 20rem;
+  padding: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgb(169, 167, 167) 6px 10px 7px;
+}

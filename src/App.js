@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import "../node_modules/font-awesome/css/font-awesome.min.css";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Hero from "./componants/hero";
+import About from "./componants/About";
+import Skills from "./componants/Skills";
+import Portfolio from "./componants/portfolio";
+import Footer from "./componants/Footer";
+import "./componants/hero.css";
+import "./componants/About.css";
+import "./componants/Skills.css";
+import "./componants/potfolio.css";
+import "./componants/Footer.css";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Hero />
+      <About />
+      <Skills />
+      <Portfolio />
+      <Footer />
+      {/* <button className="btn btn-danger"></button> */}
+    </>
   );
 }
 

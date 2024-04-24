@@ -1,0 +1,35 @@
+header {
+  height: 100vh;
+  /* width: 100vw; */
+  background-image: url("../assets/imgs/pexels-photo-16284989.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  margin-bottom: 5rem;
+}
+.left-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 7rem;
+  color: #eee;
+}
+.left-box h1 {
+  margin-bottom: 1rem;
+  font-size: 5rem;
+  font-family: "Times New Roman", Times, serif;
+}
+.left-box p {
+  margin-bottom: 5rem;
+  font-size: 4rem;
+  font-family: "Times New Roman", Times, serif;
+}
+.left-box button {
+  margin-bottom: 2rem;
+  padding: 0.5rem 1.5rem;
+  color: inherit;
+  background-color: rgb(31, 30, 30);
+  border: 1px #eee solid;
+  font-size: 2rem;
+}
